@@ -1,6 +1,8 @@
+print("how many cables should i remove")
+cables = int(input())
 iteration = 0
-print("starting iteration...")
-while (iteration<=10):
-    print(iteration)
+print("starting removal...")
+while (iteration<cables):
+    print("removing cable")
     iteration = iteration + 1
-print ("completed", iteration, ("!"))
+print ("completed cable removal!")
