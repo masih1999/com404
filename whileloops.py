@@ -1,8 +1,8 @@
-print("how many cables should i remove")
-cables = int(input())
-iteration = 0
-print("starting removal...")
-while (iteration<cables):
-    print("removing cable")
-    iteration = iteration + 1
-print ("completed cable removal!")
+print("how many bars need recharging")
+bars_to_charge = int(input())
+bars_charged = 0
+print("charging...")
+while (bars_charged<bars_to_charge):
+    bars_charged = bars_charged + 1
+    print("charging", "█" * bars_charged)
+print ("The battery is fully charged!")
