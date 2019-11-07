@@ -1,7 +1,7 @@
 print("Enter a number and I will find the sum of every number within")
 number = int(input())
-count = 0
 total = 1
+count = 0
 while (count <= number):
     total = total + count
     count = count + 1
